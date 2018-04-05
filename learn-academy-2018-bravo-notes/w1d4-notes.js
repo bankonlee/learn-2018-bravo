@@ -5,6 +5,9 @@
 ----------------------------------Scope & Objects-------------------------------
 */
 
+- 3 scope levels
+Global Scope ---> Local Scope ---> Block Scope
+
 var name = "Tom"
 
 var nameCaller = function() {
