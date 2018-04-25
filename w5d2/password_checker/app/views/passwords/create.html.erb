@@ -1,0 +1,23 @@
+<h2>Create Your Account</h2>
+<h6>
+Username Must Contain:
+  <ul>
+    <li>Minimum 8 Characters</li>
+    <!-- <li>No Spaces</li> -->
+  </ul>
+Password Must Contain:
+  <ul>
+    <li>Minimum 8 Characters</li>
+    <!-- <li>Minimum 1 Uppercase Letter</li> -->
+    <!-- <li>Minimum 1 Symbol</li> -->
+    <!-- <li>No Spaces</li> -->
+  </ul>
+</h6>
+<form action="create" method="get">
+  <input type="text" placeholder="Enter UserID" name="userid" required />
+  <input type="text" placeholder="Enter Password" name="password" required/>
+  <input type="submit" value="Create Account" />
+</form>
+<div>
+<h6>Already Have An Account? LogIn <%= link_to "Here", "/access" %></h6>
+</div>
